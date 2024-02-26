@@ -1,4 +1,12 @@
-Securing Docker containers involves several best practices:
+# Securing Docker containers involves several best practices:
+
+## Outline
+
+- [Introduction](#introduction)
+- [Best Practices for Securing Docker Images](#best-practices-for-securing-docker-images)
+- [Scanning Docker Images for Vulnerabilities](#scanning-docker-images-for-vulnerabilities)
+
+## Introduction
 
 1. **Use Official Images**: Always use official Docker images from trusted sources, such as Docker Hub. Official images are maintained by the Docker community and are regularly updated to address security vulnerabilities.
 
