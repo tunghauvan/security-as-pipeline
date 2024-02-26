@@ -1,4 +1,4 @@
-Demonstration about SonarQube and how to use it with a simple project.
+# Demonstration about SonarQube and how to use it with a simple project.
 
 ## Installation
 
