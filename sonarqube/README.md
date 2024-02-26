@@ -17,12 +17,11 @@ docker-compose exec sonar-scanner bash
 ```
 
 ```bash
-sonarqube:
-	sonar-scanner \
-	-Dsonar.projectKey=Test \
-	-Dsonar.sources=. \
-	-Dsonar.host.url=http://sonarqube:9000 \
-	-Dsonar.token=<token>
+sonar-scanner \
+-Dsonar.projectKey=Test \
+-Dsonar.sources=. \
+-Dsonar.host.url=http://sonarqube:9000 \
+-Dsonar.token=<token>
 ```
 
 ## Open SonarQube dashboard
