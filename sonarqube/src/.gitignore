@@ -1,0 +1,7 @@
+.venv
+
+__all__ = ['venv']
+
+__pycache__
+
+.scannerwork

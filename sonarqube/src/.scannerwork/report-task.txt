@@ -1,0 +1,6 @@
+projectKey=Test
+serverUrl=http://sonarqube:9000
+serverVersion=10.4.0.87286
+dashboardUrl=http://sonarqube:9000/dashboard?id=Test
+ceTaskId=851a2fb8-d958-4157-a3ed-bd0fb6d33123
+ceTaskUrl=http://sonarqube:9000/api/ce/task?id=851a2fb8-d958-4157-a3ed-bd0fb6d33123
