@@ -5,6 +5,8 @@
 - [Introduction](#introduction)
 - [Best Practices for Securing Docker Images](#best-practices-for-securing-docker-images)
 - [Scanning Docker Images for Vulnerabilities](#scanning-docker-images-for-vulnerabilities)
+    - [Using Clair](#using-clair)
+    - [Using Docker Scout](#using-docker-scout)
 
 ## Introduction
 
@@ -61,4 +63,24 @@ Output:
 2017/03/20 15:00:00 [INFO] ▶ Server listening on :9279
 2017/03/20 15:00:00 [INFO] ▶ Analyzing 3 layers
 2017/03/20 15:00:00 [INFO] ▶ Image [alpine:3.5] contains 0 total vulnerabilities
+```
+
+### Using Docker Scout
+
+#### Purpose
+Docker Scout is a vulnerability management tool that provides automated scanning and monitoring of Docker containers. It helps you identify and remediate vulnerabilities in Docker images and ensures that your containerized applications are secure.
+
+To use Docker Scout, you can follow these steps:
+
+1. Sign in to your Docker account with the docker login command or use the Sign in button in Docker Desktop.
+2. Use the Docker CLI docker scout repo enable command to enable analysis on an existing repository:
+
+```bash
+docker scout repo enable <repo-name>
+```
+
+After building, use the docker scout CLI command to see vulnerabilities detected by Docker Scout.
+
+```bash
+docker scout cves --only-package express
 ```
